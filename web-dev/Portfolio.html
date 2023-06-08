@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav's Portfolio Site</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<style>
+    .hero {
+        background-color: rebeccapurple;
+        height: 80px;
+        padding: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero:hover {
+        background-color: rgb(186, 66, 66);
+        transform: scale(1.05);
+    }
+
+    .hero img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero img:hover {
+        transform: rotate(360deg);
+    }
+
+    .hero-text {
+        background-color: rgb(239, 9, 124);
+        padding: 20px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-text:hover {
+        transform: translateY(-10px);
+    }
+
+    .hero h1 {
+        color: wheat;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+        transition: all 0.3s ease-in-out;
+        animation: animateText 2s ease-in-out infinite;
+    }
+
+    @keyframes animateText {
+        0% {
+            transform: translateX(-50px);
+        }
+        100% {
+            transform: translateX(50px);
+        }
+    }
+
+    .hero h1:hover {
+        color: #a6b8ba;
+    }
+    nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px green;
+  }
+  
+  nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: red;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  nav ul li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .education {
+    padding: 80px 0;
+    background-color: lightgray;
+  }
+
+  .education .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .education h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .education-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .education-item {
+    width: 400px;
+    margin: 40px;
+    text-align: left;
+  }
+
+  .education-item h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .education-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+</style>
+<script>
+    const links = document.querySelectorAll("nav ul li a");
+    
+    links.forEach(link => {
+      link.addEventListener("mouseenter", function() {
+        this.style.transform = "translateY(-5px)";
+      });
+      
+      link.addEventListener("mouseleave", function() {
+        this.style.transform = "translateY(0)";
+      });
+    });
+  </script>
+  
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+    </nav>
+<section class="hero">
+    <img src="images/aboutme.jpg">
+    <div class="hero-text">
+        <h1>A highly motivated and experienced data analytics/science and DevOps professional seeking a position where I can utilize my skills in query and visualization tools, proficiency in Python, experience in agile software development, and strong communication, teamwork, and problem-solving abilities to enhance product development and improve organizational efficiency.</h1>
+    </div>
+</section>
+
+    <section id="aboutme" class="aboutme">
+        <h2>About Me</h2>
+        <div class="aboutme-section">
+            <div class="aboutme-text">
+                <div class="aboutme-image"></div>
+            </div>
+            <div class="aboutme-text">
+                    <p>As a highly knowledgeable and skilled graduate student in Computing Systems, Communication Systems, and Networks from Concordia University in Montreal, Canada, I have developed a passion for multiple areas of expertise. My portfolio showcases a diverse range of skills and knowledge in the fields of Data Analytics/Science, Software Development, and Cloud Services/Communication Systems/Network Technologies.
+                    <br><br>
+                    In the field of Data Analytics/Science, I have gained a solid understanding of various tools and technologies, such as SQL, Tableau, Excel, Python, and Machine Learning. These skills allow me to analyze and interpret large data sets, construct predictive models, and make informed business decisions.
+                    <br><br>
+                    In Software Development, I have honed my skills in HTML 5, CSS 3, JavaScript, JQuery, and APIs, and have the ability to develop dynamic web applications that provide excellent user experiences.
+                    <br><br>
+                    In the area of Cloud Services/Communication Systems/Network Technologies, I am knowledgeable in TCP/IP protocols, Routing protocols, Python, technical support, AWS, and Oracle Cloud. These skills have enabled me to manage cloud infrastructure and communication systems efficiently and securely, ensuring smooth data transmission.
+                    <br><br>
+                    In conclusion, my portfolio highlights my capacity to effectively utilize my knowledge and skills to meet the demands of businesses, organizations, and individuals.</p>  
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="project">
+            <h2>Projects</h2>
+                <div class="projects">
+
+                    <div class="earth-project">
+                        <div class="text">
+                            <h3 class="project-name">Earth Facts</h3>
+                            <div class="content">
+                                <p>A HTML project about some facts about the earth.</p>
+                            </div>
+                            <a class="button" href="Earth.html" target="_blank">View Project</a>
+
+                        </div>
+                    </div>
+
+                    <div class="bbc-project">
+                        <div class="text">
+                            <h3 class="project-name">BBC News Clone</h3>
+                            <div class="content">
+                                <p>This project is a clone of the BBC news website.</p>
+                            </div>
+                            <a class="button" href="bbc.html" target="_blank">View Project</a>
+
+                        </div>
+                    </div>
+                    <div class="edge-computing">
+                        <div class="text">
+                            <h3 class="project-name">Edge Computing</h3>
+                            <div class="content">
+                                <p>Edge Computing and Computer Vision Algorithms</p>
+                            </div>
+                            <a class="button" href="edge_comp/index.html" target="_blank">View Project</a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+        </div>
+    </section>
+
+    
+    <style>
+      .title-box {
+          background-color: wheat;
+          color: #333;
+          padding: 10px;
+          text-align: center;
+          font-size: 20px;
+          margin-bottom: 20px;
+      }
+      
+      .education-item {
+          background-color: #f2f2f2;
+          padding: 20px;
+          margin-bottom: 20px;
+          width: 360px;
+      }
+      </style>
+      <section id="education" class="education">
+          <div class="container">
+              <div class="title-box">
+                  <h2>Education</h2>
+              </div>
+              <div class="education-content">
+                  <div class="education-item">
+                      <h2>Concordia University</h2>
+                      <p><strong>Doctor of Philosophy (PhD), MEng </strong><br> Department of Electrical and Computer Engineering<br> Expected - April 2023</p>
+                  </div>
+                  <div class="education-item">
+                      <h2>National Institute of Technology, Trichy</h2>
+                      <p><strong>Master of Science (MS) by Research</strong><br> Department of Electronics and Communication Engineering<br> Feb 2016 - May 2018</p>
+                  </div>
+                  <div class="education-item">
+                      <h2>West Bengal University of Technology</h2>
+                      <p><strong>Bachelor of Technology (BTech)</strong><br> Electronics and Communication Engineering <br> Aug 2008 - Jun 2012</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <section id="contactme" class="contact">
+        <h2>Contact</h2>
+        <p>Use this form to reach out to me. I would love to hear from you.</p>
+        <form class="contact-form">
+            <div class="contact-details">
+                <label for="name">Name</label>
+                <input type="text" id="subject" placeholder="Yourname">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Reason for your message">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Your email address">
+
+            </div>
+
+
+            <div class="message">
+                <label for="msg">Message</label>
+                <textarea id="msg" rows="15"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+
+    </section>
+
+      
+
+
+    <footer>
+
+        <div class="container">
+            <div class="copyright">
+                This site &copy; 2022 Pranav K Jha
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/pranavjha.cu"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+                <a href="https://twitter.com/PranavKJha1"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
