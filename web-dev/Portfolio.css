@@ -69,46 +69,11 @@ h1 {
     margin: 30px 0px 100px;
 
 }
-
-    /* .aboutme-text {
-        background-color: whitesmoke;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #ccc;
-        transition: all 0.3s ease-in-out;
-        animation: animateText 2s ease-in-out infinite;
-    }
-
-    @keyframes animateText {
-        0% {
-            transform: translateX(-50px);
-        }
-        100% {
-            transform: translateX(50px);
-        }
-    }
-
-    .aboutme-text:hover {
-        transform: translateY(-10px);
-    }
-
-    .aboutme-text p {
-        font-size: 18px;
-        line-height: 1.5;
-        text-align: justify;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .aboutme-text p:hover {
-        color: #a6b8ba;
-    } */
-
-
 .aboutme {
     width: 90%;
     max-width: 1100px;
     height: auto;
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     padding: 40px 50px 70px;
     margin: 0 auto;
@@ -130,7 +95,6 @@ h1 {
 }
 .aboutme-text {
     height: auto;
-    font-size: 15px;
     width: 40%;
     margin-left: 40px;
     text-align: left;
@@ -182,17 +146,6 @@ h1 {
     background-size: cover;
     background-position: center;
 
-}
-.edge-computing {
-    width: 400px;
-    height: 400px;
-    background: white;
-    position: relative;
-    border-radius: 10px;
-    background-image: url("images/edge.png");
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
 }
 
 .text {
