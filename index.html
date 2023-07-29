@@ -1,129 +1,511 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranav's Portfolio Site</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="portfolio.css">
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Portfolio_Projects</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <!-- <style type="text/css">
+        h3 {
+            color: aqua;
+        }
+    </style> -->
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contactme">Contact Me</a></li>
-        </ul>
-    </nav>
     
-    <section class="hero">
-        <div class="container">
-            <img src="images/aboutme.jpg">
-            <h1>Hi, I am Pranav K Jha and I am a Software Developer.</h1>
-
-        </div>
-
-
-    </section>
-    <section id="aboutme" class="aboutme">
-        <h2>About Me</h2>
-        <div class="aboutme-section">
-            <div class="img">
-                <div class="aboutme-image"></div>
+    <div class="sequence">
+  
+      <div class="seq-preloader">
+        <svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator"><g fill="#F96D38"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></g></svg>
+      </div>
+      
+    </div>
+    
+  
+        <nav>
+          <div class="logo">
+              <img src="" alt="">
+          </div>
+          <div class="mini-logo">
+              <img src="" alt="">
+          </div>
+          <ul>
+            <li><a href="#1"><i class="fa fa-home"></i> <em>Home</em></a></li>
+            <li><a href="#2"><i class="fa fa-user"></i> <em>About</em></a></li>
+            <li><a href="#3"><i class="fa fa-code"></i> <em>Projects</em></a></li>
+            <li><a href="#4"><i class="fa fa-suitcase"></i> <em>Experience</em></a></li>
+            <li><a href="#5"><i class="fa fa-university"></i> <em>Education</em></a></li>
+            <!-- <li><a href="#6"><i class="fa fa-book"></i> <em>Publications</em></a></li> -->
+            <li><a href="#6"><i class="fa fa-envelope"></i> <em>Contact</em></a></li>
+          </ul>
+        </nav>
+        
+        <div class="slides">
+          <div class="slide" id="1">
+            <div class="content first-content">
+              <div class="container-fluid">
+                  <div class="col-md-3">
+                      <div class="author-image"><img src="img/profile.jpg" alt="Author Image"></div>
+                  </div>
+                  <div class="col-md-9">
+                    <h2>Pranav K Jha</h2>
+                    <p>Location: Montreal, QC | Willing to Relocate: Yes</p>
+                                          <p>
+                        <em>Interests: <br> <br></em>
+                        <em>Data Analysis / Data Science</em> <br>
+                        <strong>Relevant Skills:</strong> SQL, Python, Tableau, PowerBI, Data Visualization, Machine Learning, Data Cleansing, Data Manipulation, Predictive Analytics, Statistical Analysis, Pandas, NumPy, Scikit-learn, Exploratory Data Analysis (EDA)
+                      </p>
+                      <p>
+                        <em>Software Development </em>  <br>
+                        <strong>Relevant Skills:</strong> HTML5, CSS3, JavaScript, JQuery, MySQL, Python, Django, WordPress, PHP, Bootstrap, SEO, AWS, Oracle Cloud, Google Cloud, Azure
+                      </p>
+                      
+                      <!-- <p><em>Communications Systems and Networks</em> <br> <strong>Relevant Skills:</strong> TCP/IP protocols, IPv4, IPv6 and Subnetting, OSI 7 Layer Model, DNS, DHCP, FTP, TFTP, ADDS, WDS, IIS, TELNET, ACL, VLAN, Routing protocols, such as RIP v1/v2, OSPF, IGRP and EIGRP, Linux, Windows Server </p> -->
+                        <!-- <p><br></em><strong>Technical Writing </strong> -->
+                        <!-- <br><i>As an experienced technical writer with expertise in multiple programming languages, data analytics, and software development, my objective is to produce high-quality technical documents that effectively communicate complex concepts to diverse audiences. <br><br> <strong> I strive to create accurate and detailed reports that are both clear and visually appealing, and to use my skills to help organizations effectively communicate their technical information to their target audiences.</strong></i></p> -->
+                      <div class="main-btn"><a href="#2">Read More</a></div>
+                      <div class="fb-btn"><a rel="nofollow" href="https://www.linkedin.com/in/pranavkjha24/" style="background-color: #0077b5; color: #fff;">My LinkedIn page</a></div>
+                  </div>
+              </div>
             </div>
-            <div class="aboutme-text">
-                <p>My name is Pranav Jha and I am currently enrolled as an MEng student focused on Computing, Communications, and Networks in the Department of Electrical and Computer Engineering at Concordia University, Montreal, Canada. 
-                    </p>
-                    <p> I have always dreamed of becoming a Data Scientist where I can use data to make the right decision for businesses and technologies. I am currently a Data science intern at MKJHA Consulting, Baltimore, MD, USA,  working 
-                        remotely, where I am responsible for developing a computer vision algorithm for image and enhanced video data processing and efficient edge computing algorithms for dilemma zone conflict point identification. I have knowledge 
-                        of Python, SQL, Tableau, and Power BI and I really enjoy learning and working with them. Also, as I have worked as a research assistant for almost five years, and have several conference publications as mentioned in my CV, I have 
-                        developed critical thinking and problem-solving skills.
-                        </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="project">
-            <h2>Projects</h2>
-                <div class="projects">
-
-                    <div class="earth-project">
-                        <div class="text">
-                            <h3 class="project-name">Earth Facts</h3>
-                            <div class="content">
-                                <p>A HTML project about some facts about the earth.</p>
-                            </div>
-                            <a class="button" href="earth.html" target="_blank">View Project</a>
-
-                        </div>
+          </div>
+          <div class="slide" id="2">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="left-content">
+                            <h2>Data Analytics and Science Expert</h2>
+                            <p>I possess a diverse range of interests and skills that revolve around the field of data analytics and science. With a strong foundation in this domain, I have honed my expertise in various technologies, enabling me to extract valuable insights from vast datasets and translate them into actionable business decisions.
+<br><br>
+                                <em>Technical Proficiencies:</em>
+                                <br><br>
+                                <em>Programming:</em> I am proficient in Python, utilizing it to perform data manipulation, analysis, and building machine learning models. My knowledge of Python allows me to automate data-driven processes efficiently.
+                                <br><br><em>Data Visualization:</em> I have hands-on experience with Tableau, which enables me to create interactive and insightful visualizations that aid in better understanding complex datasets.
+                                <br><br><em>Data Management:</em> Proficiency in SQL allows me to efficiently manage and query databases, streamlining data retrieval and analysis.
+                                <br><br><em>Advanced Excel:</em> I leverage Excel's advanced functionalities to perform data cleansing, analysis, and complex calculations with ease.
+                                <br><br><em>Machine Learning:</em> I have a sound understanding of various machine learning techniques and algorithms, allowing me to build predictive models and derive meaningful patterns from data.
+                                <br><br>
+                                <em>Web Technologies:</em> My knowledge of web technologies like HTML 5, CSS 3, JavaScript, and JQuery complements my data analytics skills. It enables me to create user-friendly and interactive web-based data visualizations and dashboards.
+                                <br><br>
+                                My passion for data analytics and science drives me to continuously explore and implement cutting-edge technologies and methodologies. As a result, I am adept at solving complex business challenges through data-driven insights, making a positive impact on decision-making processes. My interdisciplinary skills equip me to excel in a data-centric role, contributing effectively to the success of any data analytics or science project.</p>.</div>
                     </div>
-
-                    <div class="bbc-project">
-                        <div class="text">
-                            <h3 class="project-name">BBC News Clone</h3>
-                            <div class="content">
-                                <p>This project is a clone of the BBC news website.</p>
-                            </div>
-                            <a class="button" href="Earth.html" target="_blank">View Project</a>
-
-                        </div>
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="" alt="">
+                      </div>
                     </div>
-
-
                 </div>
-
+            </div>
+          </div> -->
+          <div class="slide" id="3">
+            <div class="content third-content">
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="first-section">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="left-content">
+                                                <h2>Message-Driven Data Processing with RabbitMQ and
+                                                    MongoDB</h2>
+                                                <div class="image">
+                                                    <img src="img/client.png" height="250">
+                                                </div>
+                                                <p><br> Developed a distributed data processing system that utilizes a microservice architecture, message queuing with RabbitMQ, and MongoDB NoSQL database to analyze educational cost and economic data in the United States. The system is developed using Java and leverages the RabbitMQ Java client library and the MongoDB Java driver to connect to a RabbitMQ message broker and MongoDB database, respectively.
+                                                </p>
+                                                    <div class="cta-btn">
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/Edu-Analytics" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                      View Project
+                                                    </a>
+                                                    <!-- <a rel="nofollow" href="https://github.com/pranav-k-jha/java-maven-project/blob/main/Assignment_1_coen6731.pdf" style="background-color: rgb(43, 226, 147); color: #000000; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                        View Project Report
+                                                      </a> -->
+                                                  </div> 
+                                            </div><br>
+                                            <div class="left-content">
+                                                <h2>Distribute System in Java</h2>
+                                                <div class="image">
+                                                    <img src="img/dss.png" height="250">
+                                                </div>
+                                                <p><br> In this project, we developed a distributed software system using Java and Oracle Cloud Infrastructure to store and access audio files with their relevant attributes. Our system is thread-safe and uses an executor and concurrent hash map to handle client requests. We have also created an OpenAPI specification on SwaggerHub to document the system's endpoints and operations. The system has been deployed on the Oracle Cloud Infrastructure and is functioning as intended.
+                                                </p>
+                                                    <div class="cta-btn">
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/java-maven-project" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                      View Project
+                                                    </a>
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/java-maven-project/blob/main/Assignment_1_coen6731.pdf" style="background-color: rgb(43, 226, 147); color: #000000; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                        View Project Report
+                                                      </a>
+                                                  </div> 
+                                            </div><br>
+                                            
+                                            <div class="left-content">
+                                                <h2>Web Development</h2>
+                                                <div class="image">
+                                                    <img src="web-dev/images/web.jpg" height="250">
+                                                </div>
+                                                <p><br> My portfolio website is a showcase of my skills and experience in web development. I utilized HTML5 and CSS3 to create a clean, modern, and user-friendly design. The site is easy to navigate and highlights my experience, education, and projects in an organized manner. I put my attention to detail and design skills to work to ensure that the website reflects my passion for web development and my commitment to delivering high-quality work.
+                                                        <br><br>
+                                                    I aimed to make the website visually appealing and engaging, while also delivering important information about my background, skills, and experience. The website is responsive and works seamlessly on various devices, including desktop, laptop, tablet, and mobile, providing a consistent user experience to all visitors.
+                                                    <br><br>
+                                                    Overall, my portfolio website is a reflection of my dedication and expertise in web development, and I am confident that it will effectively communicate my qualifications to potential clients and employers.</p>
+                                                <!-- <div class="fb-btn"><a rel="nofollow" href="web-dev/Portfolio.html"><h5>View Project</h5></a></div> -->
+                                                <div class="cta-btn">
+                                                    <a rel="nofollow" href="web-dev/Portfolio.html" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                      View Project
+                                                    </a>
+                                                  </div> 
+                                            </div><br>
+                                            <div class="left-content">
+                                                    <h2>COVID 19 Data Exploration</h2>
+                                                    <div class="image">
+                                                        <img src="img/covid.png" height="250">
+                                                    </div>
+                                                    <p>In this project, I developed my skills in data analysis and visualization by working with global Covid data on SQL Server. I performed a series of queries to uncover important insights related to the infection rate based on regional population, the number of deaths by location, and other relevant metrics. To present this information, I created a comprehensive dashboard using Tableau.
+                                                            <br><br>
+                                                        By working on this project, I not only honed my technical abilities, but also gained a deeper understanding of the impact of the Covid-19 pandemic across the world. I am proud to have contributed to a better understanding of this global crisis and I am eager to continue developing my skills in data analysis and visualization.</p>
+                                                    
+                                                    <!-- <div class="fb-btn"><a rel="nofollow" href="https://github.com/pranavjha24/Portfolio_Projects/blob/main/CovidDataQueries.sql"><h5>View Project</h5></a></div> -->
+                                                    <div>
+                                                    <div class="cta-btn">
+                                                        <a rel="nofollow" href="https://github.com/pranavjha24/Portfolio_Projects/blob/main/CovidDataQueries.sql" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                          View Project
+                                                        </a>
+                                                      </div> <br><br>
+                                                    <div class="fb-btn"><a rel="nofollow" href="https://public.tableau.com/app/profile/pranav.jha5613/viz/CovidProject_16740028564530/Dashboard1" style="background-color: magenta; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View the Tableau Dashboard</a></div>
+                                                </div>
+                                            </div><br>
+                                            <div class="left-content">
+                                                <h2>AirBnB <br> Data Exploration</h2>
+                                                <p>In this project, I utilized Tableau to create a comprehensive visualization of the Seattle AirBnB Data for the year 2016 obtained from Kaggle. The visualization allowed me to gain valuable insights into various factors influencing the price and demand of AirBnB properties in Seattle, including seasonal patterns in the rental market and popular amenities. <br><br> The experience provided me with hands-on experience in data visualization and an opportunity to explore and understand real-world data.</p>
+                                                <div class="image">
+                                                    <img src="img/airbnb.png" height="250">
+                                                </div><br><br>
+                                                <div class="fb-btn"><a rel="nofollow" href="https://github.com/pranavjha24/Portfolio_Projects/blob/main/AirBnB_Visualization_Tableau.png" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View the Tableau Dashboard</a></div>
+                                            </div><br>
+                                            <div class="right-content">
+                                                <h2>A Compact and Secure Anti-Theft Bike Mobile
+                                                    Application for iPhone Operating System (iOS) users</h2>
+                                                
+                                                <p><br>The proposed anti-theft solution for bikes is aimed at iOS users and comprises of hardware and software components. The hardware component includes GPS tracker, accelerometer, gyroscopic sensor and a microcontroller that can be installed easily on the bike. The software component consists of an iOS app that interacts with the hardware through Firebase cloud services. The app allows users to track their bike, receive push alerts about parked location and orientation changes, and view tracking history for up to a year. Users can also set the time interval to record GPS locations of their bike for up to an hour.</p>
+                                                    <div class="cta-btn">
+                                                
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/Anti-Theft-Bike-App" style="background-color: rgb(43, 226, 147); color: #000000; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                        View Project Report
+                                                      </a>
+                                                  </div> 
+                                            </div><br>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="right-content">
+                                                    <h2>MOVIES DATA CORRELATION</h2>
+                                                    <div class="image">
+                                                        <img src="img/movies.jpeg" height="250">
+                                                    </div><br>
+                                                    <p>In this project, I worked with a movies dataset and applied my skills in data cleaning and correlation analysis using Python in a Jupyter Notebook environment. The data cleaning process involved removing missing values and inconsistencies, transforming and normalizing the data, and preparing it for analysis. This project demonstrated my ability to identify and address potential issues in the data, and my skills in data cleaning techniques using Python.
+                                                        <br><br>
+                                                        Furthermore, the correlation analysis allowed me to identify relationships between different attributes of the movies data and understand the impact they have on the overall success of a movie. This experience has further honed my skills in data analysis, providing me with a deeper understanding of how to draw meaningful insights from data.</p>
+                                             
+                                                    <div class="fb-btn"><a rel="nofollow" href="https://github.com/pranavjha24/Portfolio_Projects/blob/main/MoviesCorrelation.ipynb" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Project</a></div>
+                                            </div><br><br>
+                                            <div class="right-content">
+                                                <h2>DATA CLEANING IN SQL</h2>
+                                                <div class="image">
+                                                    <img src="img/nashville.png" height="250">
+                                                </div>
+                                                <p><br> In this project, I worked on housing data for Nashville and used SQL to perform various cleaning operations to make the data more usable for analysis.
+                                                    The data cleaning process involved removing inconsistencies and errors, transforming the data into a more suitable format, and ensuring the quality of the data for further analysis. <br><br> This project demonstrated my ability to work with large datasets, perform data cleaning operations using SQL, and effectively prepare data for analysis.
+                                                    
+                                                <div class="fb-btn"><a rel="nofollow" href="https://github.com/pranavjha24/Portfolio_Projects/blob/main/NashvilleDataCleaning.sql" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Project</a></div></p>
+                                            </div>
+                                            <div class="right-content">
+                                                <h2>PIR Motion Sensor Alarm using Arduino MKR
+                                                    Wi-Fi 1010</h2>
+                                                <div class="image">
+                                                    <img src="img/pir.jpg" height="250">
+                                                </div>
+                                                <p><br>I have designed a wireless motion detection sensor system using the Arduino platform to cater to the increasing demand for smart home security systems. This system gathers sensory data from the surrounding environment through a PIR motion sensor, and the Arduino interprets it for proper action. In case of any undesired activities, the alarms are activated, and homeowners are notified through the user's application. The system utilizes Arduino MKR Wi-Fi 1010, which has a built-in Wi-Fi module, allowing a connection between the user's application and the motion detection sensor system. My project showcases my proficiency in designing and implementing a secure and effective smart home security system.
+                                                </p>
+                                                    <div class="cta-btn">
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/PIR_Motion_Sensor_Alarm" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                      View Project
+                                                    </a>
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/PIR_Motion_Sensor_Alarm/blob/main/Microprocessr_Project.pdf" style="background-color: rgb(43, 226, 147); color: #000000; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                        View Project Report
+                                                      </a>
+                                                  </div> 
+                                            </div><br><br>
+                                            <div class="right-content">
+                                                <h2>Design Analysis of The Magnetic Levitation System</h2>
+                                                <!-- <div class="image">
+                                                    <img src="img/mag.png" height="250">
+                                                </div> -->
+                                                <p><br>In this project, a suitable control system for the ECP Model 730 magnetic levitation system was designed. The project involved the development of a system model, identification of non-linearities, creation of a linearized model, and design of controllable, observable, and Jordan canonical forms for the open-loop system. A PID controller and a full-state feedback controller were designed, with simulation results provided. Additionally, the design of a full-order observer was presented. The project concludes with a comparative study between classical control theory design approaches and modern control theory design approaches. </p>
+                                                    <div class="cta-btn">
+                                                    <!-- <a rel="nofollow" href="https://github.com/pranav-k-jha/PIR_Motion_Sensor_Alarm" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                      View Project
+                                                    </a> -->
+                                                    <a rel="nofollow" href="https://github.com/pranav-k-jha/Magnetic-Levitation-System/blob/main/Project_Report_ENGR6131.pdf" style="background-color: rgb(43, 226, 147); color: #000000; padding: 10px 20px; border-radius: 40px; text-decoration: none;">
+                                                        View Project Report
+                                                      </a>
+                                                  </div> 
+                                            </div><br><br>
+                                            <div class="right-content">
+                                                <h2>Publications</h2>
+                                             
+                                                <p>1. P. K. Jha, S. S. Shree and D. S. Kumar, "An opportunistic-non orthogonal multiple access based cooperative relaying system over Rician fading channels," 2018 4th International Conference on Recent Advances in Information Technology (RAIT), 2018, pp. 1-5, doi: 10.1109/RAIT.2018.8388973.
+                                                    <div class="fb-btn"><a rel="nofollow" href="https://ieeexplore.ieee.org/abstract/document/8388973 " style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Publication</a></div> </p> 
+                                                  <p>2. P. K. Jha and D. S. Kumar, "Achievable rate analysis of relay assisted cooperative NOMA over Rician fading channels," 2018 4th International Conference on Recent Advances in Information Technology (RAIT), 2018, pp. 1-5, doi: 10.1109/RAIT.2018.8388972. 
+                                                    <div class="fb-btn"><a rel="nofollow" href="https://ieeexplore.ieee.org/abstract/document/8388972" style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Publication</a></div>  </p>  
+                                                   <p>3. P. K. Jha, N. Kachare, K. Kalyani and D. S. Kumar, "Performance analysis of FSO using relays and spatial diversity under log-normal fading channel," 2018 4th International Conference on Electrical Energy Systems (ICEES), 2018, pp. 121-125, doi: 10.1109/ICEES.2018.8442405. 
+                                                    <div class="fb-btn"><a rel="nofollow" href="https://ieeexplore.ieee.org/abstract/document/8442405 " style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Publication</a></div>  </p> 
+                                                    <p>4. P. K. Jha, N. Mishra, and D. S. Kumar. "Challenges and potentials for visible light communications: State of the art." AIP conference proceedings. Vol. 1849. No. 1. AIP Publishing LLC, 2017. 
+                                                        <div class="fb-btn"><a rel="nofollow" href="https://aip.scitation.org/doi/abs/10.1063/1.4984154 " style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Publication</a></div>  </p> 
+                                                  <p>5. N. Mishra, D. S. Kumar and P. K. Jha. "Performance analysis of dual-hop optical wireless communication systems over k-distribution turbulence channel with pointing error." AIP Conference Proceedings. Vol. 1849. No. 1. AIP Publishing LLC, 2017. 
+                                                    <div class="fb-btn"><a rel="nofollow" href="https://aip.scitation.org/doi/abs/10.1063/1.4984158 " style="background-color: blueviolet; color: #fff; padding: 10px 20px; border-radius: 40px; text-decoration: none;">View Publication</a></div> </p>
+                                             
+                                               
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="slide" id="4">
+            <div class="content third-content">
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="first-section">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <!-- <div class="left-content">
+                                                <h2>Freelance<br> </h2>
+                                                <p><strong>Front-End Developer</strong> <br> Sep 2021 - current</p>
+                                                <p>Designed websites using HTML, CSS, JavaScript, REST APIs, and Node.js.
+                                                </p>
+                                                <p>Utilized cloud-based environments to deploy websites</p>
+                                            </div> -->
+                                            <div class="left-content">
+                                                <h2>MKJHA Consulting | Severn, MD, US (Remote)</h2>
+                                                <p><strong>Data Science Intern</strong> <br> Sep 2021 – June 2023</p>
+                                                <p>Conducted data analysis and utilized computer vision techniques to develop and implement machine learning algorithms for real-time vehicle classification using live video streaming.</p>
+                                                <p>Processed and analyzed large volumes of video data, collaborating with a team of data scientists and engineers to improve model accuracy and performance.</p>
+                                                <p>Gained hands-on experience in data science methodologies and real-world applications in the transportation domain, working with Python, TensorFlow, and OpenCV.</p>
+                                                <p>Assisted in exploratory data analysis, data preprocessing pipelines, and evaluation and optimization of performance metrics for the vehicle classification models.</p>
+                                            </div>
+                                            
+                                            
+                                            <div class="left-content">
+                                                <h2>CONCORDIA UNIVERSITY | Montreal, QC</h2>
+                                                <p><strong>Machine Learning/Deep Learning Research Assistant</strong><br> Sep 2018 – Aug 2021</p>
+                                                <p>Improved deep learning models to achieve higher levels of efficiency and accuracy in data processing tasks.</p>
+                                                <p>Focused on domains like image recognition, natural language processing, and time series analysis.</p>
+                                                <p>Considered factors such as computational efficiency, model complexity, and dataset characteristics to optimize performance.</p>
+                                            </div>
+                                            
+                                            
+                                            
+                                            
+                                           
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="left-content">
+                                                <h2>NATIONAL INSTITUTE OF TECHNOLOGY TRICHY | Trichy, IN</h2>
+                                                <p><strong>Research Assistant</strong> <br> Feb 2016 - May 2018</p>
+                                                <p>Analyzed data of Cooperative Relaying Systems in Wireless Communications and published results in multiple IEEE conference
+                                                    publications</p>
+                                            </div>
+                                            <div class="left-content">
+                                                <h2>INFONET BPO SERVICES PVT LTD | Pune, IN</h2>
+                                                <p><strong>Executive-IT</strong> <br> May 2015 - Jan 2016</p>
+                                                <p>Managed faults, implemented security measures for network resources, resolved routine issues, and ensured regular backup and restoration of critical assets.</p>
+                                            </div>
+                                            
+                                            <div class="left-content">
+                                                <h2>SELF-EMPLOYED | New Delhi, IN</h2>
+                                                <p><strong>Private Tutor</strong> <br> June 2012 - May 2015</p>
+                                                <p>Tutored Mathematics and Physics to Higher Secondary students.</p>
+                                                <p>Conducted personalized one-on-one tutoring sessions.</p>
+                                                <p>Clarified complex concepts and encouraged active learning.</p>
+                                                <p>Received positive feedback for improving student grades.</p>
+                                            </div>
+                                            
+                                            <!-- <div class="left-content">
+                                                <h2>Freelance</h2>
+                                                <p><strong>Web Developer</strong> <br>  June 2012 - May 2015</p>
+                                                <p>Developed HTML and CSS based websites for clients. Delivered high-quality and user-friendly websites to meet the needs and
+                                                    requirements of clients. Utilized coding skills to ensure the websites were functional, visually appealing, and easy to navigate.</p>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="slide" id="5">
+            <div class="content third-content">
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="first-section">
+                                <div class="container-fluid">
+                                    <!-- <div class="row">
+                                        <div class="col-md-6"> -->
+                                            <div class="left-content">
+                                                <h2>Concordia University | Montreal, QC</h2>
+                                                <p><strong>Doctor of Philosophy (PhD), MEng </strong> <br> Department of Electrical and Computer Engineering<br> Sep 2018 - May 2023</p>
+                                                <!-- <p>Majoring in Computing Systems, Communication Systems, and Networks, the program focuses on software engineering,
+                                                    distributed software systems, neural networks, real-time and multimedia communication over the Internet, and microprocessors
+                                                    and their applications.<br></p> -->
+                                            </div>
+                                             <!-- <div class="left-content">
+                                                <h2>Concordia University</h2>
+                                                <p><strong>Doctor of Philosophy (PhD)</strong> <br> Sep 2018 - Aug 2021</p>
+                                                <p>Signal Processing in Wireless Communications<br>
+                                                Department of Electrical and Computer Engineering <br>
+                                                wd <br>
+                                                Cumulative GPA: 3.90/4.30</p>
+                                            </div> --> -->
+                                            <div class="left-content">
+                                                <h2>National Institute of Technology Trichy | Trichy, IN</h2>
+                                                <p><strong>Master of Science (MS) by Research</strong> <br> Department of Electronics and Communication Engineering<br> Feb 2016 - May 2018</p>
+                                                 </p>
+                                            </div>
+                                            <div class="left-content">
+                                                <h2>West Bengal Institue of Technology | Kolakta, IN</h2>
+                                                <p><strong>Bachelor of Technology (BTech)</strong> <br>Electronics and Communi`cation Engineering <br> Aug 2008 - Jun 2012</p>
+                                            </div>
+                                        <!-- </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div> 
+          <div class="slide" id="6">
+            <div class="content fifth-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5593.396140251665!2d-73.58113279999998!3d45.49602450000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1674423572803!5m2!1sen!2sca" width=“300" height=“200” style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="contact" action="" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                  </fieldset>
+                                </div>
+                                 <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Now</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+           </div>
         </div>
-    </section>
 
-    <section id="contactme" class="contact">
-        <h2>Contact</h2>
-        <p>Use this form to reach out to me. I would love to hear from you.</p>
-        <form class="contact-form">
-            <div class="contact-details">
-                <label for="name">Name</label>
-                <input type="text" id="subject" placeholder="Yourname">
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" placeholder="Reason for your message">
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="Your email address">
-
-                
-            </div>
-
-
-            <div class="message">
-                <label for="msg">Message</label>
-                <textarea id="msg" rows="15"></textarea>
-                <button type="submit">Submit</button>
-            </div>
-
-        </form>
-
-
-    </section>
-
-    <footer>
-
-        <div class="container">
-            <div class="copyright">
-                This site &copy; 2022 Pranav K Jha
-            </div>
-            <div class="social-media">
-                <a href="https://www.facebook.com/pranavjha.cu"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
-                <a href="https://twitter.com/PranavKJha1"><i class="fa fa-twitter" style="font-size:24px"></i></a>
-
-
-            </div>
+        <div class="footer">
+          <div class="content">
+              <p>Copyright&copy;2023 Pranav K Jha<a rel="nofollow" href=""></a></p>
+          </div>
         </div>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/datepicker.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-    </footer>
+    <script type="text/javascript">
+    $(document).ready(function() {
 
+        
+
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 0;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
 </body>
 </html>
